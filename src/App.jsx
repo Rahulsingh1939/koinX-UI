@@ -1,11 +1,16 @@
 import "./App.css";
 
+// Component Imports
+import Navbar from "./components/Navbar.jsx";
+import Hero from "./components/Hero.jsx";
+
 function App() {
   return (
     <>
-      <div className="text-3xl font-bold underline text-center">
-        This is KoinX
-      </div>
+      <Navbar />
+      <div className="w-full bg-gray-100">
+          <Hero />
+        </div>
     </>
   );
 }

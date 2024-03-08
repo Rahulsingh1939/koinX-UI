@@ -1,2 +1,1 @@
-# koinX-UI
-FrontEnd Assignment for KoinX
+This is a FrontEnd Assignment for KoinX

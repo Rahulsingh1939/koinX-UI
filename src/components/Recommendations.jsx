@@ -23,6 +23,7 @@ export const Recommendations = () => {
       <SmChart chrt="BITSTAMP:BTCUSD"/>
       <SmChart chrt="BITSTAMP:BTCUSD"/>
       <SmChart chrt="BITSTAMP:BTCUSD"/>
+      <SmChart chrt="BITSTAMP:BTCUSD"/>
       </div>
     </div>
   );

@@ -17,7 +17,7 @@ const Frame = ({ property1, text = "Dashboard" }) => {
           property1 === "default" ? "text-text-2" : "text-primarydarkblue"
         } ${property1 === "default" ? "font-medium" : "font-semibold"}`}
       >
-        <a smooth href={`#${text}`} >{text}</a>
+        <a href={`#${text}`} >{text}</a>
         
       </div>
     </div>

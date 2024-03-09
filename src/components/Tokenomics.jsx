@@ -14,7 +14,7 @@ export function Tokenomics() {
           <div className="flex flex-col max-md:ml-0 max-md:w-full">
             <img
               loading="lazy"
-              src="https://cdn.builder.io/api/v1/image/assets/TEMP/54eb9c38e031f2d7a5b83923150b86159ad15ec33afdde69818bc6fa0ee42538?apiKey=c41df0b048fb4bad873f2d9b07bfce38&"
+              src=""
               className="shrink-0 max-w-full aspect-square w-[179px] max-md:mt-10"
             />
           </div>

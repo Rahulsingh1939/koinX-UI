@@ -1,5 +1,6 @@
 import React from "react";
 
+
 const Frame = ({ property1, text = "Dashboard" }) => {
   return (
     <div
@@ -16,7 +17,8 @@ const Frame = ({ property1, text = "Dashboard" }) => {
           property1 === "default" ? "text-text-2" : "text-primarydarkblue"
         } ${property1 === "default" ? "font-medium" : "font-semibold"}`}
       >
-        {text}
+        <a smooth href={`#${text}`} >{text}</a>
+        
       </div>
     </div>
   );
@@ -29,7 +31,7 @@ const opt = [
   },
   {
     text: "Fundamentals",
-    property1: "selected",
+    property1: "default",
   },
   {
     text: "News Insights",

@@ -13,7 +13,7 @@ function SmChart({chrt}) {
       script.async = true;
       script.innerHTML = `
         {
-            "symbol": "BITSTAMP:BTCUSD",
+            "symbol": "${chrt}",
             "width": "100%",
             "height": "100%",
             "locale": "en",

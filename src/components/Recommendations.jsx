@@ -10,19 +10,19 @@ export const Recommendations = () => {
       </div>
 
       <div className="flex bg-slate-50 p-3 flex-col lg:flex-row overflow-x-scroll">
-        <SmChart />
-        <SmChart />
-        <SmChart />
-        <SmChart />
+        <SmChart chrt="BITSTAMP:BTCUSD"/>
+        <SmChart chrt="BITSTAMP:BTCUSD"/>
+        <SmChart chrt="BITSTAMP:BTCUSD"/>
+        <SmChart chrt="BITSTAMP:BTCUSD"/>
       </div>
       <div className="text-2xl font-semibold leading-7 text-slate-900 max-md:max-w-full">
        Trending Coins
       </div>
       <div className="flex bg-slate-50 p-3 flex-col lg:flex-row overflow-x-scroll">
-      <SmChart />
-      <SmChart />
-      <SmChart />
-      <SmChart />
+      <SmChart chrt="BITSTAMP:BTCUSD"/>
+      <SmChart chrt="BITSTAMP:BTCUSD"/>
+      <SmChart chrt="BITSTAMP:BTCUSD"/>
+      <SmChart chrt="BITSTAMP:BTCUSD"/>
       </div>
     </div>
   );
